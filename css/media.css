@@ -1,0 +1,106 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .container-full {
+    padding: 0 5px !important;
+  }
+  nav ul li a {
+    font-size: 14px !important;
+    padding: 10px 5px !important;
+  }
+  /*banner start*/
+  h1 {
+    font-size: 35px !important;
+    max-width: 300px !important;
+  }
+  p {
+    font-size: 14px !important;
+    max-width: 400px !important;
+    line-height: 20px !important;
+  }
+  .hero-banner {
+    padding: 30px 0 !important;
+  }
+  /*footer start*/
+  footer {
+    padding: 20px 0 !important;
+  }
+  footer p {
+    font-size: 13px !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container-full {
+    padding: 0 5px !important;
+  }
+  nav ul li a {
+    font-size: 14px !important;
+    padding: 10px 8px !important;
+  }
+  /*banner start*/
+  h1 {
+    font-size: 35px;
+    max-width: 300px;
+  }
+  p {
+    font-size: 14px !important;
+    max-width: 400px !important;
+    line-height: 20px !important;
+  }
+  .hero-banner {
+    padding: 30px 0 !important;
+  }
+  /*footer start*/
+  footer {
+    padding: 20px 0 !important;
+  }
+  footer p {
+    font-size: 13px !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container-full {
+    padding: 0 70px !important;
+  }
+  nav ul li a {
+    padding: 10px 15px !important;
+  }
+  /*banner start*/
+  h1 {
+    font-size: 45px !important;
+    max-width: 550px !important;
+  }
+  p {
+    font-size: 14px !important;
+    max-width: 700px !important;
+  }
+  .hero-banner {
+    padding: 50px 0 !important;
+  }
+  .hero-banner img {
+    width: 65% !important;
+  }
+
+  /*footer start*/
+  footer {
+    padding: 25px 0 !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  /*.container-full {
+    padding: 0 500px !important;
+  }*/
+}
